@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Form - HTML 5</title>
+	</head>
+	<body>
+		<h1>HTML 5 - Form</h1>
+		<form name="fmhs" method="post" action="proses.php">
+			<table>
+				<tr>
+					<td>NIM</td>
+					<td><input type="number" name="fnim" required></td>
+				</tr>
+				
+				<tr>
+					<td>Nama</td>
+					<td><input type="text" name="fnama" required></td>
+				</tr>
+				
+				<tr>
+					<td>Tgl Lahir</td>
+					<td><input type="date" name="ftgllhr" required></td>
+				</tr>
+				
+				<tr>
+					<td>Program Studi</td>
+					<td>
+						<select name="fprodi" required>
+							<option value="">Pilih Program Studi</option>
+							<option value="A11">S1-Teknik Informatika</option>
+							<option value="A12">S1-Sisitem Informasi</option>
+							<option value="A13">S1-Desain Komunikasi dan Visual</option>
+							<option value="A21">D3-Teknik Informatika</option>
+							<option value="A22">D3-Sisitem Informasi</option>
+							<option value="A23">D3-Desain Komunikasi dan Visual</option>
+						</select>
+					</td>
+				</tr>
+				
+				<tr>
+					<td>Bidang Minat</td>
+					<td>
+						<input type="checkbox" name="fbid1" value="01"><label>Web Programing</label>
+						<input type="checkbox" name="fbid2" value="02"><label>Mobile Programing</label>
+						<input type="checkbox" name="fbid3" value="03"><label>Data Science</label>
+					</td>
+					
+				</tr>
+				
+				<tr>
+					<td>Berkas CV</td>
+					<td><input type="file" name="fcv" required></td>
+				</tr>
+				<tr>
+                    <td></td>
+                    <td align="left">
+                    <input type="submit" value="kirim" name="fsubmit" required>
+                    </td>
+				</tr>
+			</table>
+		</form>
+	</body>
+</html>
+
+		
