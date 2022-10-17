@@ -1,0 +1,22 @@
+nav{
+    list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+a{
+    color: white;
+    padding: 14px 16 px;
+    text-decoration: none;
+}
+.syaa{
+    text-align: center;
+}
+.form-group{
+    display: flex;
+    margin: 0 auto;
+}
+form{
+    display: inline-block;
+}
