@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+}
+
+header {
+    padding: 35px;
+    text-align: center;
+    border: 1px solid green;
+    background-color: #e5e5e5;
+}
+
+nav{
+    float: left;
+    width: 20%;
+    text-align: center;
+
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+    display: block;
+    padding: 0px;
+    border: 1px solid green;
+    background-color: #e5e5e5;
+    margin-top: 0px;
+}
+
+article {
+    float: left;
+    width: 80%;
+    border: 1px solid green;
+    background-color: #e5e5e5;
+    padding: 0 20px;
+
+
+}
+
+footer {
+    text-align: center;
+}
